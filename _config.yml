@@ -17,6 +17,6 @@ plugins:
 # Navigation menu pages (these will appear in the top nav)
 header_pages:
   - about.md
-  - knowledge.md
+  - education.md
   - experiences.md
   - projects.md
