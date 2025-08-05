@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Experiences
-permalink: /education/
+permalink: /experiences/
 ---
 
 ## Stage at Grambero Rosso spa
