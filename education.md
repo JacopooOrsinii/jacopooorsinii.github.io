@@ -18,6 +18,6 @@ The structure differed from my Bachelor’s degree, with only four mandatory cou
 
 The Master’s program gave me strong knowledge in Data Science, Machine Learning, and Deep Learning. I particularly appreciated the group projects in each course, which pushed me out of my comfort zone. Frequently working with new teammates, I received positive feedback on my contributions, which helped me develop teamwork, leadership, and conflict resolution skills.
 
-## Other Coruses
+## Other Courses
 I also like to keep strengthening my knowledge and beeing updated on the new technologies by attending other course:
 - **Machine Learning and AI with Python, CS109xa** – EdX: focused in particular on Decision Trees and Random Forests
