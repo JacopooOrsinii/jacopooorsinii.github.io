@@ -1,16 +1,26 @@
-# React + Vite
+# jacopooorsinii.github.io
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal website of Jacopo Orsini, built with React and Vite.
 
-Currently, two official plugins are available:
+## Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- [React](https://react.dev/) 19
+- [Vite](https://vite.dev/) 8
+- Plain CSS (`src/App.css`), hash-based client-side routing (`src/App.jsx`)
 
-## React Compiler
+## Development
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev      # start the dev server
+npm run build    # production build into dist/
+npm run lint     # run ESLint
+npm run preview  # preview the production build locally
+```
 
-## Expanding the ESLint configuration
+## Deployment
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The site is deployed automatically to GitHub Pages via
+[`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) on every push
+to `main`. In the repository settings, **Settings > Pages > Build and
+deployment > Source** must be set to **GitHub Actions**.
